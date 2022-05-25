@@ -14,6 +14,7 @@
   <body>
     <div class="
     navbar-container
+    container-fluid 
     d-flex
     justify-content-between
     bg-light
@@ -24,7 +25,15 @@
         <a href="/" class="router-link-active router-link-exact-active navbar-logo" aria-current="page"><i class="fa-solid fa-house"></i></a>
       </div>
       <!-- Navbar -->
-      <ul class="nav nav-pills d-flex justify-content-around align-items-center">
+      <ul class="
+      nav nav-pills
+      sticky-bottom
+      d-flex
+      justify-content-center
+      align-items-center 
+      
+      
+      ">
         <li class="nav-item pe-1 ">
           <button class="btn btn-outline-success me-2" type="button">Über mich</button>
         </li>
@@ -44,18 +53,54 @@
         <span class="slider round"></span>
       </label>
     </div>
+    <!-- TESTUMGEBUNG ANFANG-->
+  
+    <nav class="navbar navbar-expand-sm ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-1 ">
+              <button class="btn btn-outline-success me-2" type="button">Über mich</button>
+            </li>
+            <li class="nav-item pe-1">
+              <button class="btn btn-outline-success me-2" type="button">Skill Set</button>
+            </li>
+            <li class="nav-item pe-1">
+              <button class="btn btn-outline-success me-2" type="button">Projekte</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-success me-2" type="button">Kontakt</button>
+            </li>
+          </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- TESTUMGEBUNG ENDE -->
+
     <header class="
     m-5
     p-5
     ">
-      <h1 class="ms-5 me-5">Hallo, mein Name ist</h1>
-      <h2 class="ms-5 me-5">Jeff Braun</h2>
-      <h3 class="ms-5 me-5">ich bin (angehender)<br>Web Developer.</h3>
-      <p class="text-justify ms-5 me-5 pe-5">Ich bin ein (angehender) Web Developer aus Solingen, DE. Ich bemühe mich Einfachheit und Effektivität auf meine Projekte zu übertragen. Programme und Code müssen für mich so benutzerfreundlich wie möglich gestaltet werden und unnötige Designelemente sowie überflüssigen Code vermieden werden.</p>
+      <div class="
+      d-flex
+      flex-column
+      justify-content-center
+      ">
+        <h1 class="ms-5 me-5">Hallo, mein Name ist</h1>
+        <h2 class="ms-5 me-5">Jeff Braun</h2>
+        <h3 class="ms-5 me-5">ich bin (angehender)<br>Web Developer.</h3>
+        <p class="text-justify ms-5 me-5 pe-5">Ich bin ein (angehender) Web Developer aus Solingen, DE. Ich bemühe mich Einfachheit und Effektivität auf meine Projekte zu übertragen. Programme und Code müssen für mich so benutzerfreundlich wie möglich gestaltet werden und unnötige Designelemente sowie überflüssigen Code vermieden werden.</p>
+      </div>    
       <button class="btn btn-outline-success p-3 ms-5 me-5" type="button">In Kontakt treten!</button>
-      
-
     </header>
+    
       
     
 

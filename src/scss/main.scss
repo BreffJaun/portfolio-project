@@ -2,11 +2,54 @@
 @use "../../node_modules/bootstrap/scss/bootstrap";
 @use "variables";
 
-// NAVBAR
 body
 {
     font-family: Helvetica, sans-serif;
 }
+
+// NAVBAR
+
+// MIDDLE NAVBAR RESPONSIVNES CORRECTIONS
+
+// .rp-nb
+// {
+//   @media screen and (min-width: 576px);
+//     {
+//       .rp-nb
+//       {
+
+//       }
+//     }
+// }
+
+[data-bs-toggle="collapse"]
+{
+  border-color: var(--bs-teal);
+  color: var(--bs-teal);
+  &:hover
+    {
+      color: var(--bs-white);
+      background-color: var(--bs-teal);
+      border-color: var(--bs-teal);
+      box-shadow: 0 0.5rem 1rem var(--bs-green);
+    }
+    &:active
+    { 
+      color: var(--bs-white);
+      background-color: var(--bs-teal);
+      border-color: var(--bs-teal);
+      box-shadow: inset 0 0.5rem 1rem var(--bs-green) !important;
+    }
+    &:focus
+    {
+      color: var(--bs-white);
+      background-color: var(--bs-teal);
+      box-shadow: none;
+    }
+    
+}
+
+
 
 // Toggle Switch für Dark & Light Mode
 .switch {
@@ -108,7 +151,7 @@ body
 
 header
 {
-    // border: 1px solid blue;
+    border: 1px solid blue;
     h1 
     {
         color: var(--bs-teal);
@@ -137,7 +180,7 @@ header
     }
 }
 
-// header *
-// {
-//     border: 1px solid red;
-// }
+header *
+{
+    border: 1px solid red;
+}
