@@ -16,22 +16,26 @@
     navbar-container
     d-flex
     justify-content-between
-    bg-info 
+    bg-light
+    shadow 
     p-3 ">  
       <div class="d-flex align-items-center ps-2">
         <!-- Link/Logo zur Startseite -->
         <a href="/" class="router-link-active router-link-exact-active navbar-logo" aria-current="page"><i class="fa-solid fa-house"></i></a>
       </div>
       <!-- Navbar -->
-      <ul class="nav nav-pills d-flex justify-content-around">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <ul class="nav nav-pills d-flex justify-content-around align-items-center">
+        <li class="nav-item pe-1 ">
+          <button class="btn btn-outline-success me-2" type="button">Über mich</button>
+        </li>
+        <li class="nav-item pe-1">
+          <button class="btn btn-outline-success me-2" type="button">Skill Set</button>
+        </li>
+        <li class="nav-item pe-1">
+          <button class="btn btn-outline-success me-2" type="button">Projekte</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <button class="btn btn-outline-success me-2" type="button">Kontakt</button>
         </li>
       </ul>
       <!-- Toggle Switch für Dark & Light Mode -->
@@ -40,6 +44,7 @@
         <span class="slider round"></span>
       </label>
     </div>
+    <button id="testbutton">Test</button>
       
     
 

@@ -11178,4 +11178,29 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+[type=button] {
+  border-color: var(--bs-teal);
+  color: var(--bs-teal);
+}
+
+[type=button]:hover {
+  color: var(--bs-white);
+  background-color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  box-shadow: 0 0.5rem 1rem var(--bs-green);
+}
+
+[type=button]:active {
+  color: var(--bs-white);
+  background-color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  box-shadow: inset 0 0.5rem 1rem var(--bs-green) !important;
+}
+
+[type=button]:focus {
+  color: var(--bs-white);
+  background-color: var(--bs-teal);
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=main.css.map */
