@@ -3,6 +3,10 @@
 @use "variables";
 
 // NAVBAR
+body
+{
+    font-family: Helvetica, sans-serif;
+}
 
 // Toggle Switch für Dark & Light Mode
 .switch {
@@ -66,6 +70,10 @@
   }
 
 //   PSEUDO-CLASSES FOR BUTTONS
+.fa-solid
+{
+    color: var(--bs-teal);
+}
 
 [type=button]
 {
@@ -96,3 +104,40 @@
     box-shadow: none;
 }
 
+// HEADER CHANGES
+
+header
+{
+    // border: 1px solid blue;
+    h1 
+    {
+        color: var(--bs-teal);
+        font-size: 16px !important;
+    }
+
+    h2 
+    {
+        color: var(--bs-gray-900);
+        font-size: clamp(40px,8vw,80px)  !important;
+        font-weight: 900 !important;
+    
+    }
+
+    h3 
+    {
+        color: var(--bs-gray-700);
+        font-size: clamp(40px,8vw,80px)  !important;
+        font-weight: 900 !important;
+    }
+
+    p 
+    {
+        color: var(--bs-gray-700);
+        text-align: justify;
+    }
+}
+
+// header *
+// {
+//     border: 1px solid red;
+// }
