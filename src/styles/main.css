@@ -11230,8 +11230,8 @@ header p {
   text-align: justify;
 }
 
-header * {
-  border: 1px solid red;
+.border-test {
+  border: 1px solid rebeccapurple;
 }
 
 /*# sourceMappingURL=main.css.map */

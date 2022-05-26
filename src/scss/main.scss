@@ -135,7 +135,12 @@ header
     }
 }
 
-header *
+// header *
+// {
+//     border: 1px solid red;
+// }
+
+.border-test
 {
-    border: 1px solid red;
+  border: 1px solid rebeccapurple;
 }
