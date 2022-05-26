@@ -11122,28 +11122,6 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-[data-bs-toggle=collapse] {
-  border-color: var(--bs-teal);
-  color: var(--bs-teal);
-}
-[data-bs-toggle=collapse]:hover {
-  color: var(--bs-white);
-  background-color: var(--bs-teal);
-  border-color: var(--bs-teal);
-  box-shadow: 0 0.5rem 1rem var(--bs-green);
-}
-[data-bs-toggle=collapse]:active {
-  color: var(--bs-white);
-  background-color: var(--bs-teal);
-  border-color: var(--bs-teal);
-  box-shadow: inset 0 0.5rem 1rem var(--bs-green) !important;
-}
-[data-bs-toggle=collapse]:focus {
-  color: var(--bs-white);
-  background-color: var(--bs-teal);
-  box-shadow: none;
-}
-
 .switch {
   position: relative;
   display: inline-block;
@@ -11204,7 +11182,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.fa-solid {
+.fa-house {
   color: var(--bs-teal);
 }
 
@@ -11212,21 +11190,18 @@ input:checked + .slider:before {
   border-color: var(--bs-teal);
   color: var(--bs-teal);
 }
-
 [type=button]:hover {
   color: var(--bs-white);
   background-color: var(--bs-teal);
   border-color: var(--bs-teal);
   box-shadow: 0 0.5rem 1rem var(--bs-green);
 }
-
 [type=button]:active {
   color: var(--bs-white);
   background-color: var(--bs-teal);
   border-color: var(--bs-teal);
   box-shadow: inset 0 0.5rem 1rem var(--bs-green) !important;
 }
-
 [type=button]:focus {
   color: var(--bs-white);
   background-color: var(--bs-teal);
