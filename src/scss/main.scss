@@ -104,6 +104,11 @@ body
 
 // HEADER CHANGES
 
+// header *
+// {
+//     border: 1px solid red;
+// }
+
 header
 {
     border: 1px solid blue;
@@ -135,12 +140,20 @@ header
     }
 }
 
-// header *
-// {
-//     border: 1px solid red;
-// }
+// SECTION - ABOUT ME
+
+.about-me
+{
+    .img-object-fit
+    {
+      object-fit: cover;
+      border: 5px solid var(--bs-teal);
+    }
+
+}
 
 .border-test
 {
   border: 1px solid rebeccapurple;
 }
+

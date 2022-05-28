@@ -11230,6 +11230,11 @@ header p {
   text-align: justify;
 }
 
+.about-me .img-object-fit {
+  object-fit: cover;
+  border: 5px solid var(--bs-teal);
+}
+
 .border-test {
   border: 1px solid rebeccapurple;
 }
