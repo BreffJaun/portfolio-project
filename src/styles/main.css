@@ -11254,7 +11254,6 @@ header p {
   color: var(--bs-gray-900);
 }
 .skillset .card-body div {
-  border: 2px solid green;
   position: relative;
 }
 .skillset .card-body div i {
@@ -11277,7 +11276,8 @@ header p {
   color: var(--bs-teal);
 }
 .skillset .card-body div:hover i {
-  left: 15%;
+  top: 25%;
+  left: 12.5%;
   transform: rotate(-45deg);
 }
 .skillset .card-body div:hover a {
