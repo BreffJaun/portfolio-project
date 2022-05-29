@@ -11208,6 +11208,9 @@ input:checked + .slider:before {
   box-shadow: none;
 }
 
+header {
+  border: 1px solid blue;
+}
 header h1 {
   color: var(--bs-teal);
   font-size: 16px !important;
@@ -11229,7 +11232,6 @@ header p {
 
 .about-me .img-object-fit {
   object-fit: cover;
-  border: 5px solid #6aeeaa;
 }
 .about-me p {
   color: var(--bs-gray-500);
@@ -11238,14 +11240,21 @@ header p {
 .skillset h1 {
   color: var(--bs-gray-700);
 }
-.skillset .card .card-header {
+.skillset .card-header {
   color: var(--bs-gray-900);
 }
-.skillset .card .card-body div i:nth-of-type(odd) {
+.skillset .card-body div p {
+  display: none;
+}
+.skillset .card-body div:nth-of-type(odd) i {
+  color: var(--bs-danger);
+}
+.skillset .card-body div:nth-of-type(even) i {
   color: var(--bs-teal);
 }
-.skillset .card .card-body div i:nth-of-type(even) {
-  color: var(--bs-danger);
+
+.border-test {
+  border: 1px solid rebeccapurple;
 }
 
 /*# sourceMappingURL=main.css.map */

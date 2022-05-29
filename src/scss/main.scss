@@ -111,7 +111,7 @@ body
 
 header
 {
-    // border: 1px solid blue;
+    border: 1px solid blue;
     h1 
     {
         color: var(--bs-teal);
@@ -123,7 +123,6 @@ header
         color: var(--bs-gray-900);
         font-size: clamp(40px,8vw,80px)  !important;
         font-weight: 900 !important;
-    
     }
 
     h3 
@@ -147,13 +146,12 @@ header
     .img-object-fit
     {
       object-fit: cover;
-      border: 5px solid #6aeeaa;
     }
 
     p
     {
       color: var(--bs-gray-500);
-    };
+    }
 }
 
 .skillset
@@ -163,24 +161,37 @@ header
     color: var(--bs-gray-700);
   }
 
-  .card .card-header
+  .card-header
     {
       color: var(--bs-gray-900);
     }
 
-  .card .card-body div i:nth-of-type(odd)
+  .card-body div
     {
-      color: var(--bs-teal);
-    }
-
-  .card .card-body div i:nth-of-type(even)
-    {
-      color: var(--bs-danger);
+      p 
+      {
+        display: none;
+      }
+        
+    &:nth-of-type(odd)
+      {
+        i 
+        {
+          color: var(--bs-danger);
+        }
+      }
+    &:nth-of-type(even)
+      {
+        i 
+        {
+          color: var(--bs-teal);
+        }
+      }
     }
 }
 
-// .border-test
-// {
-//   border: 1px solid rebeccapurple;
-// }
+.border-test
+{
+  border: 1px solid rebeccapurple;
+}
 
