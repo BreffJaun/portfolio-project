@@ -11208,9 +11208,6 @@ input:checked + .slider:before {
   box-shadow: none;
 }
 
-header {
-  border: 1px solid blue;
-}
 header h1 {
   color: var(--bs-teal);
   font-size: 16px !important;
@@ -11226,17 +11223,29 @@ header h3 {
   font-weight: 900 !important;
 }
 header p {
-  color: var(--bs-gray-700);
+  color: var(--bs-gray-500);
   text-align: justify;
 }
 
 .about-me .img-object-fit {
   object-fit: cover;
-  border: 5px solid var(--bs-teal);
+  border: 5px solid #6aeeaa;
+}
+.about-me p {
+  color: var(--bs-gray-500);
 }
 
-.border-test {
-  border: 1px solid rebeccapurple;
+.skillset h1 {
+  color: var(--bs-gray-700);
+}
+.skillset .card .card-header {
+  color: var(--bs-gray-900);
+}
+.skillset .card .card-body div i:nth-of-type(odd) {
+  color: var(--bs-teal);
+}
+.skillset .card .card-body div i:nth-of-type(even) {
+  color: var(--bs-danger);
 }
 
 /*# sourceMappingURL=main.css.map */

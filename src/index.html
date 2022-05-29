@@ -18,7 +18,8 @@
     container-fluid 
     d-flex
     justify-content-between
-    align-items-center 
+    align-items-center
+    sticky-top
     bg-light
     shadow 
     ">  
@@ -38,7 +39,7 @@
                 <button class="btn btn-outline-success " type="button">Über mich</button>
               </li>
               <li class="nav-item pe-1 d-flex justify-content-center m-1">
-                <button class="btn btn-outline-success" type="button">Skill Set</button>
+                <button class="btn btn-outline-success" type="button">Fähigkeiten</button>
               </li>
               <li class="nav-item pe-1 d-flex justify-content-center m-1">
                 <button class="btn btn-outline-success " type="button">Projekte</button>
@@ -61,6 +62,7 @@
     <header class="
     container-md
     mt-5
+    mb-5
     vh-100
     ">
       <div class="
@@ -98,30 +100,108 @@
         <img class="rounded-circle img-object-fit" style="height: 10rem; width: 10rem;" src="images/MV5BMTgyMDgwODYwNl5BMl5BanBnXkFtZTgwNjMyODY2ODE@._V1_.jpg" alt="">
         <p class="text-center mt-3">Hey, ich bin Jeff Braun, ein angehender Web Developer aus Nordrhein-Westfalen, DE.</p>
         <p class="text-center">Als gelernter Bürokaufmann und Betriebswirt mit einigen Jahren Berufserfahrung, habe ich mich zu einem beruflichen Wandel entschieden. Daher mache ich aktuell eine Umschulung beim <a class="dci-link" href="https://start.digitalcareerinstitute.org/de/discover-dci-c066c/?utm_feeditemid=,utm_device=c,utm_term=digital%20career%20institute,utm_source=google,utm_medium=ppc,utm_campaign=,utm_campaign_id=11662237832,utm_adgroup_id=113147801413,hsa_mt=p,hsa_src=g,utm_ad_id=565440019179,hsa_acc=9628643656,hsa_net=adwords,hsa_kw=digital%20career%20institute,hsa_tgt=kwd-859407575403&utm_feeditemid=&utm_device=c&utm_content=113147801413&utm_term=digital%20career%20institute&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_DE&hsa_cam=11662237832&hsa_grp=113147801413&hsa_mt=p&hsa_src=g&hsa_ad=565440019179&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=digital%20career%20institute&hsa_tgt=kwd-859407575403&hsa_ver=3&gclid=CjwKCAjwyryUBhBSEiwAGN5OCKqtikdx6VCp8voKMhJtblHsoyEU04Pc_K3fGjASsj05RjbFYc1w1xoCbskQAvD_BwE" target="_blank">DCI</a> zum Web Developer. In der Umschulung lebe ich auch als Klassensprecher und angestellter Tutor des DCI voll auf.</p>
-        <p>Bisher besteht mein Skill Ste aus folgenden Programmiersprachen:</p>
+        <p class="text-center">Bisher besteht mein Skill Set aus folgenden Programmiersprachen:</p>
       </div>
 
       <div class="
+      skillset
       d-flex
-      justify-content-center">
-
-        <div class="card text-bg-light me-3" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      flex-column
+      justify-content-center
+      align-items-center
+      mt-2
+      ">
+        <h1>Fähigkeiten</h1>
+        <div class="
+        d-flex
+        justify-content-center
+        flex-wrap
+        flex-md-nowrap">
+          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 20rem;">
+            <div class="card-header text-center">Bereits erlernt</div>
+            <div class="card-body">
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-html5 me-2"></i>
+                <p class="card-text">HTML5</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-css3-alt me-2"></i>
+                <p class="card-text">CSS3</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-sass me-2"></i>
+                <p class="card-text">SASS</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-bootstrap me-2"></i>
+                <p class="card-text">Bootstrap</p>
+              </div>
+            </div>
           </div>
-        </div>
-        
-        <div class="card text-bg-light ms-3" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 20rem;">
+            <div class="card-header text-center">demnächst</div>
+            <div class="card-body">
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-html5 me-2"></i>
+                <p class="card-text">HTML5</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-css3-alt me-2"></i>
+                <p class="card-text">CSS3</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-sass me-2"></i>
+                <p class="card-text">SASS</p>
+              </div>
+              <div class="
+              d-flex
+              flex-row
+              justify-content-center
+              align-items-center
+              fs-1">
+                <i class="fa-brands fa-bootstrap me-2"></i>
+                <p class="card-text">Bootstrap</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </section>
     
       
