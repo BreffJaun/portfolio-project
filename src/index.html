@@ -36,10 +36,12 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item pe-1 d-flex justify-content-center  m-1">
-                <button class="btn btn-outline-success " type="button">Über mich</button>
+                <button class="btn btn-outline-success " type="button"><a class="
+                  text-decoration-none" href="#about-me">Über mich</a></button>
               </li>
               <li class="nav-item pe-1 d-flex justify-content-center m-1">
-                <button class="btn btn-outline-success" type="button">Fähigkeiten</button>
+                <button class="btn btn-outline-success" type="button"><a class="
+                  text-decoration-none" href="#skillset">Fähigkeiten</a></button>
               </li>
               <li class="nav-item pe-1 d-flex justify-content-center m-1">
                 <button class="btn btn-outline-success " type="button">Projekte</button>
@@ -79,7 +81,7 @@
       <button class="btn btn-outline-success p-3 ms-5 me-5" type="button">In Kontakt treten!</button>
     </header>
     <!-- ABOUT ME -->
-    <section class="
+    <section id="about-me" class="
     about-me
     border-test
     d-flex
@@ -87,6 +89,7 @@
     justify-content-center
     container-md
     mt-5
+    mb-5
     vh-100
       ">
       <div class="
@@ -99,11 +102,11 @@
         <h1>Über mich</h1>
         <img class="rounded-circle img-object-fit" style="height: 10rem; width: 10rem;" src="images/MV5BMTgyMDgwODYwNl5BMl5BanBnXkFtZTgwNjMyODY2ODE@._V1_.jpg" alt="">
         <p class="text-center mt-3">Hey, ich bin Jeff Braun, ein angehender Web Developer aus Nordrhein-Westfalen, DE.</p>
-        <p class="text-center">Als gelernter Bürokaufmann und Betriebswirt mit einigen Jahren Berufserfahrung, habe ich mich zu einem beruflichen Wandel entschieden. Daher mache ich aktuell eine Umschulung beim <a class="dci-link" href="https://start.digitalcareerinstitute.org/de/discover-dci-c066c/?utm_feeditemid=,utm_device=c,utm_term=digital%20career%20institute,utm_source=google,utm_medium=ppc,utm_campaign=,utm_campaign_id=11662237832,utm_adgroup_id=113147801413,hsa_mt=p,hsa_src=g,utm_ad_id=565440019179,hsa_acc=9628643656,hsa_net=adwords,hsa_kw=digital%20career%20institute,hsa_tgt=kwd-859407575403&utm_feeditemid=&utm_device=c&utm_content=113147801413&utm_term=digital%20career%20institute&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_DE&hsa_cam=11662237832&hsa_grp=113147801413&hsa_mt=p&hsa_src=g&hsa_ad=565440019179&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=digital%20career%20institute&hsa_tgt=kwd-859407575403&hsa_ver=3&gclid=CjwKCAjwyryUBhBSEiwAGN5OCKqtikdx6VCp8voKMhJtblHsoyEU04Pc_K3fGjASsj05RjbFYc1w1xoCbskQAvD_BwE" target="_blank">DCI</a> zum Web Developer. In der Umschulung lebe ich auch als Klassensprecher und angestellter Tutor des DCI voll auf.</p>
+        <p class="text-center">Als gelernter Bürokaufmann und Betriebswirt mit einigen Jahren Berufserfahrung, habe ich mich zu einem beruflichen Wandel entschieden. Daher mache ich aktuell eine Umschulung beim <a class="dci-link" href="https://start.digitalcareerinstitute.org/de/discover-dci-c066c/?utm_feeditemid=,utm_device=c,utm_term=digital%20career%20institute,utm_source=google,utm_medium=ppc,utm_campaign=,utm_campaign_id=11662237832,utm_adgroup_id=113147801413,hsa_mt=p,hsa_src=g,utm_ad_id=565440019179,hsa_acc=9628643656,hsa_net=adwords,hsa_kw=digital%20career%20institute,hsa_tgt=kwd-859407575403&utm_feeditemid=&utm_device=c&utm_content=113147801413&utm_term=digital%20career%20institute&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_DE&hsa_cam=11662237832&hsa_grp=113147801413&hsa_mt=p&hsa_src=g&hsa_ad=565440019179&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=digital%20career%20institute&hsa_tgt=kwd-859407575403&hsa_ver=3&gclid=CjwKCAjwyryUBhBSEiwAGN5OCKqtikdx6VCp8voKMhJtblHsoyEU04Pc_K3fGjASsj05RjbFYc1w1xoCbskQAvD_BwE" target="_blank">DCI</a> zum Web Developer. In der Umschulung lebe ich auch als Klassensprecher und Tutor des DCI voll auf.</p>
         <p class="text-center">Bisher besteht mein Skill Set aus folgenden Programmiersprachen:</p>
       </div>
 
-      <div class="
+      <div id="skillset" class="
       skillset
       d-flex
       flex-column
@@ -117,7 +120,7 @@
         justify-content-center
         flex-wrap
         flex-md-nowrap">
-          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
+          <div class="card text-bg-light" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
             <div class="card-header text-center fs-3">Bereits erlernt</div>
             <div class="card-body">
               <div class="
@@ -126,7 +129,8 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3
+              ">
                 <i class="fa-brands fa-html5 me-2"></i>
                 <p class="card-text">HTML5</p>
               </div>
@@ -136,7 +140,7 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
                 <i class="fa-brands fa-css3-alt me-2"></i>
                 <p class="card-text">CSS3</p>
               </div>
@@ -146,7 +150,7 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
                 <i class="fa-brands fa-sass me-2"></i>
                 <p class="card-text">SASS</p>
               </div>
@@ -156,14 +160,14 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
                 <i class="fa-brands fa-bootstrap me-2"></i>
                 <p class="card-text">Bootstrap</p>
               </div>
             </div>
           </div>
           
-          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
+          <div class="card text-bg-light" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
             <div class="card-header text-center fs-3">demnächst</div>
             <div class="card-body">
               <div class="
@@ -172,8 +176,8 @@
               justify-content-center
               align-items-center
               fs-1 
-              mb-1">
-              <i class="fa-brands fa-js me-1"></i>
+              pb-3">
+              <i class="fa-brands fa-js me-2"></i>
                 <p class="card-text">JavaScript</p>
               </div>
               <div class="
@@ -182,7 +186,7 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
               <i class="fa-brands fa-node-js me-2"></i>
                 <p class="card-text">Node.js</p>
               </div>
@@ -192,7 +196,7 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
               <i class="fa-brands fa-react me-2"></i>
                 <p class="card-text">React</p>
               </div>
@@ -202,7 +206,7 @@
               justify-content-center
               align-items-center
               fs-1
-              mb-1">
+              pb-3">
               <i class="fa-brands fa-java me-2"></i>
                 <p class="card-text">Java</p>
               </div>

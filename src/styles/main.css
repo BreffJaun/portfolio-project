@@ -11207,6 +11207,12 @@ input:checked + .slider:before {
   background-color: var(--bs-teal);
   box-shadow: none;
 }
+[type=button] a {
+  color: var(--bs-teal);
+}
+[type=button] a:hover {
+  color: var(--bs-white);
+}
 
 header {
   border: 1px solid blue;
@@ -11230,8 +11236,12 @@ header p {
   text-align: justify;
 }
 
+.about-me {
+  scroll-margin-top: 1em;
+}
 .about-me .img-object-fit {
   object-fit: cover;
+  border: 5px solid var(--bs-teal);
 }
 .about-me p {
   color: var(--bs-gray-500);
@@ -11243,14 +11253,29 @@ header p {
 .skillset .card-header {
   color: var(--bs-gray-900);
 }
+.skillset .card-body div i {
+  transition: 0.5s;
+}
 .skillset .card-body div p {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  transition: 0.3s;
 }
 .skillset .card-body div:nth-of-type(odd) i {
   color: var(--bs-danger);
 }
 .skillset .card-body div:nth-of-type(even) i {
   color: var(--bs-teal);
+}
+.skillset .card-body div:hover i {
+  transform: rotate(-45deg);
+}
+.skillset .card-body div:hover p {
+  opacity: 1;
+  position: relative;
+  transition: 1s;
+  margin: 0;
+  padding: 0;
 }
 
 .border-test {
