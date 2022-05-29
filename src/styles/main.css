@@ -11277,6 +11277,7 @@ header p {
   color: var(--bs-teal);
 }
 .skillset .card-body div:hover i {
+  left: 10%;
   transform: rotate(-45deg);
 }
 .skillset .card-body div:hover a {
