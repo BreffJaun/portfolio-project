@@ -11232,6 +11232,9 @@ header p {
   color: var(--bs-gray-500);
   text-align: justify;
 }
+header a {
+  max-width: fit-content;
+}
 
 .about-me {
   scroll-margin-top: 1em;
@@ -11288,6 +11291,13 @@ header p {
 }
 
 .projects {
+  scroll-margin-top: 1em;
+}
+.projects h1 {
+  color: var(--bs-gray-700);
+}
+
+.contact {
   scroll-margin-top: 1em;
 }
 
