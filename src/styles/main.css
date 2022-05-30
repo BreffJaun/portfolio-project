@@ -11274,6 +11274,7 @@ header a {
   transition: 0.3s;
   text-decoration: none;
   visibility: hidden;
+  color: var(--bs-teal);
 }
 .skillset .card-body div:nth-of-type(odd) i {
   color: var(--bs-danger);
