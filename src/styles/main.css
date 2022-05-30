@@ -11208,8 +11208,7 @@ header a {
 }
 
 .about-me img {
-  border: 5px solid transparent;
-  border-image: linear-gradient(var(--bs-teal), var(--bs-purple)) 5 5;
+  border: 5px solid var(--bs-teal);
 }
 .about-me .img-object-fit {
   object-fit: cover;
