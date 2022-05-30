@@ -164,7 +164,10 @@ header
       object-fit: cover;
       border: 5px solid var(--bs-teal);
     }
-
+    h1 
+    {
+      color: var(--bs-gray-700);
+    }
     p
     {
       color: var(--bs-gray-500);
@@ -227,8 +230,6 @@ header
           top: 25%;
           left: 12.5%;
           transform: rotate(-45deg);
-
-          
         }
         a 
         {
@@ -250,14 +251,47 @@ header
   {
     color: var(--bs-gray-700);
   }
+  .card-body
+  {
+    color: var(--bs-gray-500);
+    a 
+    {
+      text-decoration: none;
+      color: var(--bs-teal);
+        &:hover
+        {
+          color: var(--bs-green);
+        }
+    }
+  }
+  .card-title
+  {
+    color: var(--bs-gray-900);
+  }
 }
-
 
 // SECTION - CONTACT
 .contact
 {
   // border: 1px solid green;
   scroll-margin-top: 1em;
+  h1 
+  {
+    color: var(--bs-gray-700);
+  }
+  p 
+  {
+    color: var(--bs-gray-500);
+  }
 }
 
-
+// SECTION - FOOTER
+.footer
+{
+  // border: 1px solid green;
+  a, p
+  {
+    text-decoration: none;
+    color: var(--bs-gray-500);
+  }
+}

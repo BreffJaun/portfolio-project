@@ -11243,6 +11243,9 @@ header a {
   object-fit: cover;
   border: 5px solid var(--bs-teal);
 }
+.about-me h1 {
+  color: var(--bs-gray-700);
+}
 .about-me p {
   color: var(--bs-gray-500);
 }
@@ -11296,9 +11299,33 @@ header a {
 .projects h1 {
   color: var(--bs-gray-700);
 }
+.projects .card-body {
+  color: var(--bs-gray-500);
+}
+.projects .card-body a {
+  text-decoration: none;
+  color: var(--bs-teal);
+}
+.projects .card-body a:hover {
+  color: var(--bs-green);
+}
+.projects .card-title {
+  color: var(--bs-gray-900);
+}
 
 .contact {
   scroll-margin-top: 1em;
+}
+.contact h1 {
+  color: var(--bs-gray-700);
+}
+.contact p {
+  color: var(--bs-gray-500);
+}
+
+.footer a, .footer p {
+  text-decoration: none;
+  color: var(--bs-gray-500);
 }
 
 /*# sourceMappingURL=main.css.map */
