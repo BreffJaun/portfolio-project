@@ -11207,9 +11207,11 @@ header a {
   max-width: fit-content;
 }
 
+.about-me img {
+  border: 5px solid var(--bs-teal);
+}
 .about-me .img-object-fit {
   object-fit: cover;
-  border: 5px solid var(--bs-teal);
 }
 .about-me h1 {
   color: var(--bs-gray-700);
