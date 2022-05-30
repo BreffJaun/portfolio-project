@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="styles/main.css" />
   </head>
-  <body class="bg-light">
+  <body class="bg-dark">
     <!-- NAVBAR -->
     <div class="
     container-fluid 
@@ -19,13 +19,13 @@
     justify-content-between
     align-items-center
     sticky-top
-    bg-light
+    bg-dark
     shadow 
     ">
     <!-- HOME BUTTON - LANDING PAGE -->  
       <div class="d-flex align-items-center ps-2">
         
-        <a href="/" class="router-link-active router-link-exact-active navbar-logo" aria-current="page"><i class="fa-solid fa-house"></i></a>
+        <a href="#" class="router-link-active router-link-exact-active navbar-logo" aria-current="page"><i class="fa-solid fa-house"></i></a>
       </div>
     <!-- NAVBAR MIDDLE PART -->
     <!-- <a class="close-navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
     <nav class="
       navbar 
       navbar-expand-sm
-      
+      bg-dark
       "
       data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
         >
@@ -66,10 +66,10 @@
         </div>
       </nav>
       
-      <!-- TOGGLE SWITCH FOR DARK MODE -->
+      <!-- TOGGLE SWITCH FOR LIGHT MODE -->
       <label class="switch">
-        <a href="index-dm.html">
-          <i class="fa-solid fa-toggle-on"></i>
+        <a href="index.html">
+          <i class="fa-solid fa-toggle-off"></i>
         </a>
       </label>
     </div>
@@ -80,7 +80,7 @@
     flex-column
     justify-content-center
     container-md
-    bg-light
+    bg-dark
     mt-5
     mb-5
     vh-100
@@ -92,7 +92,7 @@
       mb-5
       ">
         <h1 class="ms-5 me-5">Hallo, mein Name ist</h1>
-        <h2 class="ms-5 me-5">Jeff Braun</h2>
+        <h2 class="ms-5 me-5 fc-white">Jeff Braun</h2>
         <h3 class="ms-5 me-5">ich bin (angehender) Web Developer.</h3>
         <p class="text-justify ms-5 me-5 ">Ich bin ein (angehender) Web Developer aus Nordrhein-Westfalen, DE. Ich bemühe mich Einfachheit und Effektivität auf meine Projekte zu übertragen. Programme und Code müssen für mich so benutzerfreundlich wie möglich gestaltet werden und unnötige Designelemente sowie überflüssigen Code vermieden werden.</p>        
       </div>    
@@ -105,6 +105,7 @@
     flex-column
     justify-content-center
     container-md
+    bg-dark
     mt-5
     mb-5
     vh-50
@@ -116,7 +117,7 @@
       align-items-center
       container-md
       ">
-        <h1>Über mich</h1>
+        <h1 class="fc-bright">Über mich</h1>
         <img class="rounded-circle img-object-fit" style="height: 10rem; width: 10rem;" src="images/MV5BMTgyMDgwODYwNl5BMl5BanBnXkFtZTgwNjMyODY2ODE@._V1_.jpg" alt="">
         <p class="text-center mt-3">Hey, ich bin Jeff Braun, ein angehender Web Developer aus Nordrhein-Westfalen, DE.</p>
         <p class="text-center">Als gelernter Bürokaufmann und Betriebswirt mit einigen Jahren Berufserfahrung, habe ich mich zu einem beruflichen Wandel entschieden. Daher mache ich aktuell eine Umschulung beim <a class="dci-link" href="https://start.digitalcareerinstitute.org/de/discover-dci-c066c/?utm_feeditemid=,utm_device=c,utm_term=digital%20career%20institute,utm_source=google,utm_medium=ppc,utm_campaign=,utm_campaign_id=11662237832,utm_adgroup_id=113147801413,hsa_mt=p,hsa_src=g,utm_ad_id=565440019179,hsa_acc=9628643656,hsa_net=adwords,hsa_kw=digital%20career%20institute,hsa_tgt=kwd-859407575403&utm_feeditemid=&utm_device=c&utm_content=113147801413&utm_term=digital%20career%20institute&utm_source=google&utm_medium=ppc&utm_campaign=DE_SEM_Brand_DE&hsa_cam=11662237832&hsa_grp=113147801413&hsa_mt=p&hsa_src=g&hsa_ad=565440019179&hsa_acc=9628643656&hsa_net=adwords&hsa_kw=digital%20career%20institute&hsa_tgt=kwd-859407575403&hsa_ver=3&gclid=CjwKCAjwyryUBhBSEiwAGN5OCKqtikdx6VCp8voKMhJtblHsoyEU04Pc_K3fGjASsj05RjbFYc1w1xoCbskQAvD_BwE" target="_blank">DCI</a> zum Web Developer. In der Umschulung lebe ich auch als Klassensprecher und Tutor des DCI voll auf.</p>
@@ -132,16 +133,16 @@
       mt-5 mb-5
       vh-50
       ">
-        <h1>Fähigkeiten</h1>
+        <h1 class="fc-bright">Fähigkeiten</h1>
         <div class="
         d-flex
         justify-content-center
         flex-wrap
         flex-md-nowrap
         ">
-          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
-            <div class="card-header text-center fs-3">Bereits erlernt</div>
-            <div class="card-body">
+          <div class="card text-bg-light m-2 bc-gray" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
+            <div class="card-header text-center fs-3 bg-dark fc-bright2">Bereits erlernt</div>
+            <div class="card-body bg-dark">
               <div class="
               d-flex
               flex-row
@@ -185,9 +186,9 @@
             </div>
           </div>
           
-          <div class="card text-bg-light m-2" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
-            <div class="card-header text-center fs-3">kommt bald hinzu</div>
-            <div class="card-body">
+          <div class="card text-bg-light m-2 bc-gray" style="max-width: 30rem; max-height: 25rem; width: 20rem;">
+            <div class="card-header text-center fs-3 bg-dark fc-bright2">kommt bald hinzu</div>
+            <div class="card-body bg-dark ">
               <div class="
               d-flex
               flex-row
@@ -242,111 +243,118 @@
     justify-content-center
     align-items-center
     container-lg
+    bg-dark
     mt-5
     mb-5
     vh-50
     ">
-    <h1>Projekte</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
+    <h1 class="fc-bright">Projekte</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-2 ">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">GitHub Pages Demo</h5>
+            <h5 class="card-title fc-bright2">GitHub Pages Demo</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <a href="https://github.com/BreffJaun/gh-pages-demo" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: 04.05.2022</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">GitHub Tutoring</h5>
+            <h5 class="card-title fc-bright2">GitHub Tutoring</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             <a href="https://github.com/FbW-D02-1/tutoring" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: 02.05.2022</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">GitHub Blog</h5>
+            <h5 class="card-title fc-bright2">GitHub Blog</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <a href="https://breffjaun.github.io/" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: 04.04.2022</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">Bla Bla Projekt</h5>
+            <h5 class="card-title fc-bright2">Bla Bla Projekt</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             <a href="#" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: XX.XX.2022</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">What the hell Project</h5>
+            <h5 class="card-title fc-bright2">What the hell Project</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             <a href="#" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: XX.XX.2022</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 bc-gray">
           <div class="card-body
+          bg-dark
           d-flex
           flex-column
           justify-content-between
           align-items-start">
-            <h5 class="card-title">Super Freak</h5>
+            <h5 class="card-title fc-bright2">Super Freak</h5>
             <p class="card-text">Rick James</p>
             <a href="" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
           </div>
-          <div class="card-footer">
+          <div class="card-footer bg-dark">
             <small class="text-muted">Datum: XX.XX.2022</small>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!-- CONTACT -->
   <section id="contact" class="
     contact
@@ -355,12 +363,13 @@
     justify-content-center
     align-items-center
     container-md
+    bg-dark
     text-center
     mt-5
     mb-5
     vh-100
     ">
-    <h1>Kontakt</h1>
+    <h1 class="fc-bright">Kontakt</h1>
     <p>Ihnen gefällt, was ich mache und Sie möchten jetzt mit mir in Kontakt treten?</p>
     <p>Zögern sie nicht und schreiben sie mir eine E-Mail</p>
     <a class="btn btn-outline-success p-3 ms-5 me-5 " type="button" href="mailto:braun_jeff@web.de">Eine E-Mail schreiben</a> 
@@ -374,6 +383,7 @@
     justify-content-center
     align-items-center
     container-md
+    bg-dark
     text-center
   ">
     <p>Designed & Built by<a href="https://github.com/BreffJaun"> Jeff Braun</a></p>
