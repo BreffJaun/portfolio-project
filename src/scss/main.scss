@@ -3,7 +3,7 @@
 @use "variables";
 
 // VARIABLES
-// $sticky-breakpoint: 32em;
+
 
 html
 {
@@ -18,7 +18,36 @@ body
 
 // NAVBAR
 
+
+// Set the behavior to close the navbar when clicking outside
+// .navbar
+// {
+//     z-index:2;
+//     box-shadow:0 2px 10px rgba(0,0,0,0.1);
+// }
+//   .close-navbar-toggler
+//   {
+//     position:absolute;
+//     top:0;
+//     left:0;
+//     height:100%;
+//     width:100%;
+//     z-index:1;
+//     cursor:pointer;
+//   }
+//   .close-navbar-toggler.collapsed
+//   {
+//     z-index:-1;
+//   }
+
 // Toggle Switch für Dark & Light Mode
+// DARK MODE - SETTINGS
+input:checked + .bg-light
+{ 
+  background-color: var(--bs-dark);
+}
+
+
 .switch {
     position: relative;
     display: inline-block;
@@ -57,7 +86,7 @@ body
   }
   
   input:checked + .slider {
-    background-color: #00FFAB;
+    background-color: #00FFAB;   
   }
   
   input:focus + .slider {
@@ -129,6 +158,7 @@ body
 header
 {
     // border: 1px solid blue;
+    // background-color: var(--bs-dark);
     h1 
     {
         color: var(--bs-teal);
@@ -298,5 +328,9 @@ header
   {
     text-decoration: none;
     color: var(--bs-gray-500);
+  }
+  a:hover
+  {
+    color: var(--bs-teal);
   }
 }
