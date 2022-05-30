@@ -2,6 +2,15 @@
 @use "../../node_modules/bootstrap/scss/bootstrap";
 @use "variables";
 
+// VARIABLES
+// $sticky-breakpoint: 32em;
+
+html
+{
+  // Verhindert das die Überschrift unter die sticky navbar fällt
+  scroll-padding-top: 5rem;
+}
+
 body
 {
     font-family: Helvetica, sans-serif;
@@ -157,8 +166,6 @@ header
 .about-me
 {
     // border: 1px solid red;
-    // Verhindert das die Überschrift unter die sticky navbar fällt
-    scroll-margin-top: 1em;
     .img-object-fit
     {
       object-fit: cover;
@@ -177,7 +184,6 @@ header
 .skillset
 {
   // border:2px solid red;
-  scroll-margin-top: 1em;
   h1 
   {
     color: var(--bs-gray-700);
@@ -247,7 +253,6 @@ header
 .projects
 {
   // border: 1px solid green;
-  scroll-margin-top: 1em;
   h1 
   {
     color: var(--bs-gray-700);
@@ -275,7 +280,6 @@ header
 .contact
 {
   // border: 1px solid green;
-  scroll-margin-top: 1em;
   h1 
   {
     color: var(--bs-gray-700);

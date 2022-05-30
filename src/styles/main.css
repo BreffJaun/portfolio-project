@@ -11118,6 +11118,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  scroll-padding-top: 5rem;
+}
+
 body {
   font-family: Helvetica, sans-serif;
 }
@@ -11236,9 +11240,6 @@ header a {
   max-width: fit-content;
 }
 
-.about-me {
-  scroll-margin-top: 1em;
-}
 .about-me .img-object-fit {
   object-fit: cover;
   border: 5px solid var(--bs-teal);
@@ -11250,9 +11251,6 @@ header a {
   color: var(--bs-gray-500);
 }
 
-.skillset {
-  scroll-margin-top: 1em;
-}
 .skillset h1 {
   color: var(--bs-gray-700);
 }
@@ -11294,9 +11292,6 @@ header a {
   visibility: visible;
 }
 
-.projects {
-  scroll-margin-top: 1em;
-}
 .projects h1 {
   color: var(--bs-gray-700);
 }
@@ -11314,9 +11309,6 @@ header a {
   color: var(--bs-gray-900);
 }
 
-.contact {
-  scroll-margin-top: 1em;
-}
 .contact h1 {
   color: var(--bs-gray-700);
 }
