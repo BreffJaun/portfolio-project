@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,900;1,100&display=swap");
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11123,7 +11124,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
 .fa-toggle-off {
@@ -11208,7 +11209,11 @@ header a {
 }
 
 .about-me img {
-  border: 5px solid var(--bs-teal);
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--bs-teal), var(--bs-purple));
+  background-clip: padding-box;
+  padding: 5px;
 }
 .about-me .img-object-fit {
   object-fit: cover;

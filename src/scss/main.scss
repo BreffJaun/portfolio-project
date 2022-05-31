@@ -2,6 +2,10 @@
 @use "../../node_modules/bootstrap/scss/bootstrap";
 @use "variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,900;1,100&display=swap');
+
+
+// BASIC SETTINGS
 html
 {
   // Verhindert das die Überschrift unter die sticky navbar fällt
@@ -10,7 +14,8 @@ html
 
 body
 {
-    font-family: Helvetica, sans-serif;
+    // font-family: Helvetica, sans-serif;
+    font-family: 'Archivo', sans-serif;
 }
 
 // NAVBAR
@@ -49,7 +54,7 @@ body
   color: var(--bs-teal);
 }
 
-// COLOR ADJUSTMENTS - DM
+// DARK MODE - COLOR ADJUSTMENTS
 
 .fc-white
 {
@@ -161,8 +166,11 @@ header
     // border: 1px solid red;
     img 
     {
-      border: 5px solid var(--bs-teal);
-      // border-image: linear-gradient(var(--bs-teal), var(--bs-purple)) 5 5;
+      position: relative;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--bs-teal), var(--bs-purple));
+      background-clip: padding-box;
+      padding: 5px;
     }
     .img-object-fit
     {
