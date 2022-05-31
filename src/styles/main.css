@@ -11168,6 +11168,9 @@ body {
   border-color: var(--bs-teal);
   box-shadow: 0 0.5rem 1rem var(--bs-green);
 }
+[type=button]:hover a {
+  color: var(--bs-white);
+}
 [type=button]:active {
   color: var(--bs-white);
   background-color: var(--bs-teal);

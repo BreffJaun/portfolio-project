@@ -18,6 +18,41 @@ body
     font-family: 'Archivo', sans-serif;
 }
 
+  // DARK MODE - SETTINGS
+  .fa-toggle-off
+  {
+    font-size: 2rem;
+    color: var(--bs-teal);
+  }
+
+  .fa-toggle-on
+  {
+    font-size: 2rem;
+    color: var(--bs-teal);
+  }
+
+  // DARK MODE - COLOR ADJUSTMENTS
+
+  .fc-white
+  {
+    color: var(--bs-white);
+  }
+
+  .fc-bright
+  {
+    color: var(--bs-gray-300) !important;
+  }
+
+  .fc-bright2
+  {
+    color: var(--bs-gray-500) !important;
+  }
+
+  .bc-gray
+  {
+    border-color: var(--bs-gray-800) !important;
+  }
+
 // NAVBAR
 
 // Set the behavior to close the navbar when clicking outside
@@ -41,42 +76,9 @@ body
 //     z-index:-1;
 //   }
 
-// DARK MODE - SETTINGS
-.fa-toggle-off
-{
-  font-size: 2rem;
-  color: var(--bs-teal);
-}
 
-.fa-toggle-on
-{
-  font-size: 2rem;
-  color: var(--bs-teal);
-}
 
-// DARK MODE - COLOR ADJUSTMENTS
-
-.fc-white
-{
-  color: var(--bs-white);
-}
-
-.fc-bright
-{
-  color: var(--bs-gray-300) !important;
-}
-
-.fc-bright2
-{
-  color: var(--bs-gray-500) !important;
-}
-
-.bc-gray
-{
-  border-color: var(--bs-gray-800) !important;
-}
-
-//   PSEUDO-CLASSES FOR BUTTONS
+//   CLASSES & PSEUDO-CLASSES FOR BUTTONS
 .fa-house
 {
     color: var(--bs-teal);
@@ -93,6 +95,10 @@ body
         background-color: var(--bs-teal);
         border-color: var(--bs-teal);
         box-shadow: 0 0.5rem 1rem var(--bs-green);
+        a 
+        {
+          color: var(--bs-white);
+        }
       }   
     &:active
       {
