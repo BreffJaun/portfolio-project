@@ -21,13 +21,15 @@ body
   // DARK MODE - SETTINGS
   .fa-toggle-off
   {
-    font-size: 5rem;
+    // font-size: 5rem;
+    font-size: clamp(2rem,5rem,8rem);
     color: var(--bs-teal);
   }
 
   .fa-toggle-on
   {
-    font-size: 5rem;
+    // font-size: 5rem;
+    font-size: clamp(2rem,5rem,8rem);
     color: var(--bs-teal);
   }
 
@@ -75,8 +77,6 @@ body
 //   {
 //     z-index:-1;
 //   }
-
-
 
 //   CLASSES & PSEUDO-CLASSES FOR BUTTONS
 .fa-house
