@@ -189,6 +189,10 @@ header
     p
     {
       color: var(--bs-gray-500);
+      .dci-link
+      {
+        text-decoration: none;
+      }
     }
 }
 

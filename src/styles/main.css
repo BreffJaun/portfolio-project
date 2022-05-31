@@ -11227,6 +11227,9 @@ header a {
 .about-me p {
   color: var(--bs-gray-500);
 }
+.about-me p .dci-link {
+  text-decoration: none;
+}
 
 .skillset h1 {
   color: var(--bs-gray-700);
